@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #e84118;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_container{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+table{
+    margin-top: 40vh;
+    color: white;
+    font-size: 16px;
+    background: #2f3640;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.search-btn{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.svg-inline--fa:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+.svg-inline--fa {
+    height: 40px;
+    color: #e84118;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+}
